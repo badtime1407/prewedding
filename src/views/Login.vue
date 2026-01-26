@@ -42,7 +42,7 @@
                     </RouterLink>
 
                     <p class="text-center text-sm text-gray-600 mt-5 font-bold">
-                        ยังไม่มีบัญชี
+                        ยังไม่มีบัญชี ?
                         <RouterLink to="/Register" class="text-red-500 font-bold hover:underline">สมัครสมาชิก
                         </RouterLink>
                     </p>

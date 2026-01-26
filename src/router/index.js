@@ -10,9 +10,9 @@ import Booking from "../views/Booking.vue";
 
 const routes = [
   { path: "/", component: Home },
-  { path: "/login", component: Login, meta: { hideNavbar: true },},
-  { path: "/register", component: Register, meta: { hideNavbar: true },},
-  { path: "/resetpassword", component: Resetpassword, meta: { hideNavbar: true },},
+  { path: "/login", component: Login, meta: { hideNavbar: true, hideFooter: true},},
+  { path: "/register", component: Register, meta: { hideNavbar: true, hideFooter: true},},
+  { path: "/resetpassword", component: Resetpassword, meta: { hideNavbar: true, hideFooter: true},},
   { path: "/packages", component: Packages },
   { path: "/gallery", component: Gallery},
   { path: "/booking", component: Booking},

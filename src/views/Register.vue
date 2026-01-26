@@ -52,7 +52,7 @@
                     </RouterLink>
 
                     <p class="text-center text-sm text-gray-600 mt-5 font-bold">
-                        มีบัญชีอยู่แล้ว
+                        มีบัญชีอยู่แล้ว ?
                         <RouterLink to="/login" class="text-red-500 font-bold hover:underline">เข้าสู่ระบบ
                         </RouterLink>
                     </p>
